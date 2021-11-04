@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.pertemuan1.Main2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Name          : Min Yoongi
+                      Born          : March 9, 1993, Buk District, Daegu, South Korea
+                      Occupation    : Rapper-song writer-record-producer
+                      Years active  : 2010–present
+                      Awards        : ROK Order of Cultural Merit Hwa-gwan (5th Class) ribbon.PNG Hwagwan Order of Cultural Merit (2018) Musical career
+                      Also known as : Agust D
+                      Genre         : Hip hopK-popRB
+                      Instruments	: Vocals
+                      Labels	    : Big Hit"
+        android:id="@+id/profile"
+        android:textSize="10pt"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="82dp" />
+
+    <Button
+        android:id="@+id/btn_activity_main_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Comment"
+        android:onClick="leave"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp" />
+</RelativeLayout>
